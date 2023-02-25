@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&family=Fjalla+One&family=Oswald:wght@500&family=Patua+One&family=Poppins:ital@0;1&family=Roboto+Slab&family=Roboto:wght@300&family=Rokkitt&family=Rubik:wght@600&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arsenal', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Patua One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Rokkitt', serif;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 43rem;
+    background-color: #d6e5e5;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    background-color: aliceblue;
+    box-shadow: 0px 0px 6px black;
+    width: 40rem;
+    height: 30rem;
+    background-color: aliceblue;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    justify-content: flex-start;
+}
+
+.checkbox {
+    display: flex;
+    gap: 0.2rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    /* margin-top: 10px; */
+}
+
+/*
+label{
+    font-size: 1.3rem;
+}
+/*
+input{
+    height: 1.5rem;
+    width: 15rem;
+}

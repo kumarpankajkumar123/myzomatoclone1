@@ -1,0 +1,256 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@400&family=Patua+One&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@500&family=Patua+One&family=Roboto:wght@300&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@500&family=Patua+One&family=Roboto:wght@300&family=Rokkitt&display=swap'); */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Fjalla One', sans-serif; 
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Patua One', cursive;*/
+    /*font-family: 'Fjalla One', sans-serif;  
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Patua One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rokkitt', serif;*/
+}
+
+
+h1 {
+    font-size: 3rem;
+    /* color: white; */
+
+}
+
+p {
+    font-size: 1.8rem;
+    /* color: white; */
+}
+
+a {
+    font-size: 1.5rem;
+    /* color: white; */
+     font-family: 'Fjalla One', sans-serif;  
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Patua One', cursive;
+}
+
+.whole-part {
+    /* min-height: 100px; */
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png ");
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+
+.navigation {
+    /* border: 2px solid red; */
+    /* text-align: end; */
+    /* padding: 4px; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+
+
+.underlist {
+    /* border: 2px solid black; */
+    /* display: block; */
+    /* padding: 5px; */
+    list-style: none;
+    display: flex;
+    flex-basis: -9px;
+    flex-direction: row;
+    margin: 0px 148px;
+
+}
+
+.anchor-tag {
+    /* order: 2px solid black; */
+    text-decoration: none;
+    padding: 21px;
+    font-size: 1.5rem;
+    color: white;
+   font-family: 'Fjalla One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Patua One', cursive;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin-top: 60px;
+}
+
+.image-zomato {
+    width: 377px;
+    height: 86px;
+}
+
+.heading {
+    /* border: 2px solid black; */
+    width: 665px;
+    text-align: center;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Patua One', cursive;
+
+}
+
+.section1 {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Patua One', cursive;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+}
+
+.para {
+    width: 1146px;
+    /* height: 100px; */
+    text-align: center;
+    line-height: 50px;
+}
+
+.main-section {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Patua One', cursive;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.section2 {
+    display: flex;
+    /* flex-basis: auto; */
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 11px;
+    /* border: 2px solid blue; */
+    margin-top: 26px;
+    margin-left: 19px;
+}
+
+.button {
+    border: 3px solid #cdc8c8;
+    width: 365px;
+    height: 56px;
+    border-radius: 8px;
+    text-align: left;
+    /* margin-left: 9px; */
+    padding-left: 24px
+}
+
+.anchor-tag1 {
+    text-decoration: none;
+    color: black;
+
+}
+
+footer {
+    margin-top: 80px;
+    /* margin-bottom: 80px; */
+    background-color: lavender;
+    height: 400px;
+}
+
+.sub-footer {
+    display: flex;
+}
+
+/*.footer-anchor{
+    color: black;
+    text-decoration: none;
+    border: 2px solid slateblue;
+    padding: 7px 15px;
+    width: 100px;
+    height: 50px
+}*/
+.india-english {
+    justify-content: end;
+    display: flex;
+    /* border: 2px solid red; */
+    /* float: right; */
+    width: 100%;
+    padding: 17px;
+    padding-right: 203px;
+    gap: 81px;
+}
+
+.head1 {
+    width: 20%;
+    margin-left: 57px;
+    /* border: 2px solid black; */
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 34px;
+    align-items: flex-start;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+.logo {
+    width: 26px;
+    height: 23px;
+    margin-top: 4px
+}
+
+.logo-company {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 10px
+}
+
+.image-anchor {
+    border: 2px solid gray;
+    border-radius: 13%;
+    background-color: black;
+}
+
+.anchor-tag2 {
+    text-decoration: none;
+    color: slategrey;
+}
+
+select {
+    font-size: 19px;
+    font-weight: 700;
+    /* margin: 5px; */
+    padding-top: 4px;
+    padding-left: 9px;
+    width: 104px;
+    height: 35px;
+    /* padding: 4px; */
+    border-radius: 9px;
+    background-color: lavender;
+}
